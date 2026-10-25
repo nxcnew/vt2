@@ -2,8 +2,8 @@
 (function(){
   var art0=document.querySelector('.page');
   var PAGE=art0?art0.getAttribute('data-page'):'home';
-  var HOME=(art0&&art0.getAttribute('data-home'))||'index.html';
-  var MAIN=[['home','Home','01',HOME],['about','About','02','about.html'],['work','What we do','03','work.html'],['contact','Contact','04','contact.html']];
+  var HOME=(art0&&art0.getAttribute('data-home'))||'/';
+  var MAIN=[['home','Home','01',HOME],['about','About','02','/about'],['work','What we do','03','/work'],['contact','Contact','04','/contact']];
   var article=document.querySelector('.page');
   var NUM=article?article.getAttribute('data-num'):'';
   var TITLE=article?article.getAttribute('data-title'):'';
